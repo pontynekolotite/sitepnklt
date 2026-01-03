@@ -1,2 +1,2 @@
 # sitepnklt
-pontynekoloti,ru
+pontynekoloti.ru
