@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="ru" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>PONTYNEKOLOTI</title>
+  <meta name="description" content="PONTYNEKOLOTI - проекты, тексты, игры, эксперименты." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="header">
+    <div class="brand">
+      <a class="brand__logo" href="#top" aria-label="PONTYNEKOLOTI">P</a>
+      <div class="brand__name">PONTYNEKOLOTI</div>
+    </div>
+
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+      <button class="toggle" id="themeToggle" type="button" aria-label="Change contrast">
+        Change contrast
+      </button>
+    </nav>
+  </header>
+
+  <main id="top" class="main">
+    <section class="hero block" data-depth>
+      <p class="kicker">Ice-cold editorial, tech, games, experiments.</p>
+      <h1 class="title">PONTYNEKOLOTI</h1>
+      <p class="lead">
+        Это не портфолио и не блог. Это витрина объектов: тексты, интерактив, айдентика, штуки,
+        которые выглядят просто, но внутри собраны намеренно.
+      </p>
+
+      <div class="cta">
+        <a class="btn" href="https://t.me/" target="_blank" rel="noreferrer">Telegram</a>
+        <a class="btn btn--ghost" href="#work">Projects</a>
+      </div>
+
+      <div class="meta">
+        <span class="tag">cyber-minimal</span>
+        <span class="tag">ice-accent</span>
+        <span class="tag">no-noise</span>
+      </div>
+    </section>
+
+    <section id="about" class="block split" data-depth>
+      <h2 class="h2">About</h2>
+      <div class="split__content">
+        <p>
+          PONTYNEKOLOTI живёт на стыке маркетинга, брендов и визуальной дисциплины. Мне нравится, когда форма
+          работает как интерфейс, а не как декор.
+        </p>
+        <p>
+          Я собираю проекты так, чтобы они выглядели неизбежными: коротко, чётко, с характером. Иногда это сайт,
+          иногда игра, иногда текст, иногда штука, которую нельзя нормально объяснить, пока не увидишь.
+        </p>
+      </div>
+    </section>
+
+    <section id="work" class="block" data-depth>
+      <div class="workHead">
+        <h2 class="h2">Work</h2>
+        <div class="workHead__hint">Selected projects and experiments</div>
+      </div>
+
+      <div class="grid">
+        <a class="card" href="#" aria-label="ICESNAKE">
+          <div class="card__top">
+            <div class="card__title">ICESNAKE</div>
+            <div class="card__year">2025</div>
+          </div>
+          <div class="card__desc">Неоново-ледяная змейка, UI как аркадный объект.</div>
+          <div class="card__tags">
+            <span>web</span><span>game</span><span>8-bit</span>
+          </div>
+        </a>
+
+        <a class="card" href="#" aria-label="JUMPMAN RETRO">
+          <div class="card__top">
+            <div class="card__title">JUMPMAN RETRO</div>
+            <div class="card__year">2025</div>
+          </div>
+          <div class="card__desc">Аркада с режимом полёта, баффами и пиксель-ритмом.</div>
+          <div class="card__tags">
+            <span>runner</span><span>sprites</span><span>fx</span>
+          </div>
+        </a>
+
+        <a class="card" href="#" aria-label="WHEEL OF FORTUNE 2026">
+          <div class="card__top">
+            <div class="card__title">WHEEL OF FORTUNE</div>
+            <div class="card__year">2026</div>
+          </div>
+          <div class="card__desc">Проект на запуск, геймификация без клоунады.</div>
+          <div class="card__tags">
+            <span>product</span><span>promo</span><span>system</span>
+          </div>
+        </a>
+
+        <a class="card" href="#" aria-label="EDITORIAL POSTS">
+          <div class="card__top">
+            <div class="card__title">EDITORIAL</div>
+            <div class="card__year">ongoing</div>
+          </div>
+          <div class="card__desc">Плотные посты про бренды, дизайн, культуру.</div>
+          <div class="card__tags">
+            <span>writing</span><span>brands</span><span>culture</span>
+          </div>
+        </a>
+      </div>
+
+      <p class="note">
+        Хотите, чтобы карточки открывали реальные ссылки на ваши GitHub Pages, Telegram и проекты, просто скажите,
+        я вставлю готовые URL.
+      </p>
+    </section>
+
+    <section id="contact" class="block split" data-depth>
+      <h2 class="h2">Contact</h2>
+      <div class="split__content">
+        <p>
+          Самый быстрый канал: Telegram. Если нужно формально, добавим почту и форму.
+        </p>
+        <div class="contacts">
+          <a class="link" href="https://t.me/" target="_blank" rel="noreferrer">t.me/yourlink</a>
+          <a class="link" href="mailto:hello@pontynekoloti.ru">hello@pontynekoloti.ru</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__left">© <span id="year"></span> PONTYNEKOLOTI</div>
+      <div class="footer__right">Built clean, kept sharp.</div>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
